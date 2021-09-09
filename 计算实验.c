@@ -4,7 +4,7 @@
   {  
 	int x;
 	float y;
-	printf("ÊäÈëx£º");
+	printf("输入x=");
 	scanf("%d",&x);
 	y=pow(x,3.5)+fabs(x-2)+1/x;
 	printf("y=%.3f",y);

@@ -8,9 +8,10 @@ int main()
   {
      printf("该数是三的倍数");
   }
-  if(number%3!=0)\
+  if(number%3!=0)
   {
      printf("该数不为三的倍数");
+   }
   return 0;
-  }
+ }
   

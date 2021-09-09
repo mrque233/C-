@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<math.h>
     int main()
-	{
+  {  
 	int x;
 	float y;
-	printf("ÊäÈëx£º");
+	printf("ÃŠÃ¤ÃˆÃ«xÂ£Âº");
 	scanf("%d",&x);
 	y=pow(x,3.5)+fabs(x-2)+1/x;
-	printf("µÃµ½y=%.3f",y);
+	printf("y=%.3f",y);
 	return 0;
     }

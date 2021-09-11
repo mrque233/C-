@@ -1,4 +1,4 @@
-#include <stdio.h>   //以下为例题 已做部分修改
+#include <stdio.h>   //以下为例题 已做部分修改   putcher为输出  getchar为输入
 
 int main(void)
 

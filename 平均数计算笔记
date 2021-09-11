@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main ()
+{
+/*	计算4个整数的和与平均值。;
+ 	初始化a，b，c，d的值，且为int类型*/ 
+	int a,b,c,d;
+	int Sum;
+//	Average结果是一个浮点数，所以定义为float类型； 
+	float Average;
+	scanf("%d %d %d %d",&a,&b,&c,&d);
+	Sum=a+b+c+d;
+//	思路打开，除于4.0，那么结果就是一个浮点数，强制转换； 
+	Average=Sum/4.0;
+//	输出时用到了%.1f，意思为打印一位小数； 
+	printf("Sum = %d; Average = %.1f",Sum,Average);
+	return 0;
+}

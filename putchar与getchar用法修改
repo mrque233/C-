@@ -5,7 +5,7 @@ int main(void)
 {
 
     char ch1,ch2;
-    sacnf("%c,%c",&ch1,&ch2)
+    scanf("%c,%c",&ch1,&ch2)
     ch1=getchar();                   /*$ERROR$*/
 
     ch2=getchar();

@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    float kg,cm,m;
+    scanf("%f",&kg);
+    scanf("%f",&cm);
+    m=cm/100;
+    printf("%.2f",kg/m/m);
+	return 0;
+}

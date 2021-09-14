@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{
+	char c;
+	scanf("%c",&c);
+	if(c==32)printf("%c is a space.",c);
+	else if(c>=48&&c<=57)printf("%c is a digit.",c);
+	else if(c>=65&&c<=122)printf("%c is a letter.",c);
+	else printf("%c is not a digit or a letter or a space.",c);
+	return 0;
+
+}

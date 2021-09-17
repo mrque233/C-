@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(void)
+{
+	int x,y=1,sum=0;
+	while(y>0){
+		scanf("%d",&x);
+		if(x<=0){
+			y=0;
+		}else if(x%2!=0){
+			sum=sum+x;
+		}
+	}
+	printf("%d",sum);
+	return 0;
+}

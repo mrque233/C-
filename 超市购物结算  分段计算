@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    float x,y;
+    scanf("%f",&x);
+    if(x<100)
+    y=x*0.95;
+    printf("%f",y);
+    if(x>=100&&200>x)
+    y=x*0.9;
+    printf("%f",y);
+    if(x>=200&&500>x)
+    y=x*0.85;
+    printf("%f",y);
+    if(x>=500)
+    y=x*0.8;
+    printf("%f",y);
+   
+    return 0;
+}

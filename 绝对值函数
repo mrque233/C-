@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(void){
+	float x,sum=1;
+	for(int i=2;i<=100;i++){
+		x=1.0/(2*i-1);
+		if(i%2==0)sum+=x;
+		else sum-=x;
+	} 
+	printf("s=%.3f",sum);
+	return 0;
+} 

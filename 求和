@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(void){
+	int N;
+	float sum=0,a;
+	scanf("%d",&N);
+	for(int i=1;i<=N;i++){
+		a=i/(2.0*i-1);
+		if(i%2==0)sum=sum-a;
+		else sum=sum+a;
+	}
+	printf("%.3f",sum);
+	return 0;
+} 

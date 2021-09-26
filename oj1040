@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+     int n,i,x;
+     double sum;
+     x=1;
+     scanf("%d",&n);
+     for(i=1;i<=n;i++)
+     {
+     	sum=sum+x*1.0/(3*i-2);
+     	x=-x;
+	 }
+     printf("sum=%.3lf\n",sum);
+     return 0;
+ }

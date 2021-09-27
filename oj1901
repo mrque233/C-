@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(void){
+	float a,b,sum;
+	char c;
+	scanf("%f%c%f",&a,&c,&b);
+	if(c==43||c==45||c==42||c==47){
+		if(c==43)sum=a+b;
+		else if(c==45)sum=a-b;
+		else if(c==42)sum=a*b;
+		else sum=a/b;
+		printf("%.2f",sum);
+	}else {
+		printf("Unknown operator");
+	}
+	
+	return 0;
+}

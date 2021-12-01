@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+int main()
+{
+    char string[80];
+    printf("Input a string:");
+    gets(string);
+    printf("Hex=");
+    int shu=0;
+    int i=0;
+    while(string[i])
+    {
+        if(string[i]>='0'&&string[i]<='9')
+            shu=shu*16+string[i]-'0';
+        else if(string[i]>='A'&&string[i]<='F')
+            shu=shu*16+string[i]-'A'+10;
+
+        i++;
+    }
+    printf("%d",shu);
+    return 0;
+}
